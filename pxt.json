@@ -1,17 +1,18 @@
 {
-  "name": "stock-ws",
+  "name": "pxt-stock-ws",
   "version": "0.0.1",
   "description": "WebSocket stock price fetcher for MakeCode Arcade",
+  "license": "MIT",
   "dependencies": {
     "core": "*",
-    "arcade": "*"
+    "arcade": "github:microsoft/pxt-arcade"
   },
   "files": [
     "README.md",
-    "libs/**/*.ts",
-    "pxt.json"
+    "libs/stockws/websocket.ts"
   ],
-  "supportedTargets": ["arcade"],
+  "supportedTargets": [
+    "arcade"
+  ],
   "public": true
 }
-
