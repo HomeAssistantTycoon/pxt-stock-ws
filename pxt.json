@@ -1,8 +1,14 @@
 {
   "name": "stock-ws",
+  "version": "0.0.1",
   "description": "Connects to a public finance WebSocket API",
   "dependencies": {
     "core": "*"
   },
+  "files": [
+    "README.md",
+    "libs/**/*.ts",
+    "pxt.json"
+  ],
   "public": true
 }
