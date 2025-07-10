@@ -1,0 +1,8 @@
+{
+  "name": "stock-ws",
+  "description": "Connects to a public finance WebSocket API",
+  "dependencies": {
+    "core": "*"
+  },
+  "public": true
+}
