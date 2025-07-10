@@ -1,0 +1,13 @@
+{
+  "name": "stock-ws",
+  "version": "0.0.1",
+  "description": "WebSocket stock price fetcher for MakeCode",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": [
+    "README.md",
+    "libs/**/*.ts",
+    "pxt.json"
+  ]
+}
