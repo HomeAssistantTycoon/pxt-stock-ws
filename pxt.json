@@ -1,14 +1,17 @@
 {
   "name": "stock-ws",
   "version": "0.0.1",
-  "description": "Connects to a public finance WebSocket API",
+  "description": "WebSocket stock price fetcher for MakeCode Arcade",
   "dependencies": {
-    "core": "*"
+    "core": "*",
+    "arcade": "*"
   },
   "files": [
     "README.md",
     "libs/**/*.ts",
     "pxt.json"
   ],
+  "supportedTargets": ["arcade"],
   "public": true
 }
+
